@@ -171,7 +171,7 @@ body {
   border-radius: 50%;
 }
 
-.reviewer__info h3:last-child {
+.reviewer__info p {
   font-weight: var(--fw-400);
   color: hsl(var(--soft--pink));
 }
@@ -284,6 +284,7 @@ body {
 
   .ratings-wrapper {
     place-content: center;
+    align-self: center;
   }
 
   .ratings {
